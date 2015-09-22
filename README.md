@@ -1,5 +1,5 @@
 # Single Touch Rotation Gesture Recognizer
-This is a rotation gesture recognizer similar to UIRotationGestureRecognizer but it tracks a single touch as it rotates around the center of the view. You might use it to implement a knob-type control. It is implemented in Swift.
+This is a rotation gesture recognizer similar to UIRotationGestureRecognizer but it tracks a single touch as it rotates around the center of the view. You might use it to implement a knob-type control. It is implemented in Swift. You can read about its development at [Creating a Gesture Recognizer in Swift](http://iosdevstuff.blogspot.com/2015/09/creating-gesture-recognizer-in-swift.html).
 
 ## Usage
 
