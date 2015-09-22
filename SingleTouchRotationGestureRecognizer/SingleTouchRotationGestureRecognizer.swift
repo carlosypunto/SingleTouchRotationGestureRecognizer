@@ -77,9 +77,11 @@ public class SingleTouchRotationGestureRecognizer: UIGestureRecognizer {
         lastTimestamp = 0
     }
     
-    private func windowTouchVector(touch: UITouch) -> CGVector{
-        let location = touch.locationInView(view!.window)
-        let center = view!.convertPoint(view!.bounds.center, toView: view!.window)
+    private func screenVectorFromTouch(touch: UITouch) -> CGVector{
+        let screenSpace = view!.window!.screen.coordinateSpace
+        let location = view!.convertPoint(touch.locationInView(view!), toCoordinateSpace: screenSpace)
+        let center = view!.convertPoint(view!.bounds.center, toCoordinateSpace: screenSpace)
+        
         return location - center
     }
     
@@ -90,7 +92,7 @@ public class SingleTouchRotationGestureRecognizer: UIGestureRecognizer {
             return
         }
         
-        lastVector = windowTouchVector(touch)
+        lastVector = screenVectorFromTouch(touch)
         lastTimestamp = touch.timestamp
         state = .Began
     }
@@ -102,7 +104,7 @@ public class SingleTouchRotationGestureRecognizer: UIGestureRecognizer {
             return
         }
         
-        let currentVector = windowTouchVector(touch)
+        let currentVector = screenVectorFromTouch(touch)
         let angularDelta = CGFloat(currentVector.angleFromVector(lastVector))
         rotation += angularDelta
         lastVector = currentVector
