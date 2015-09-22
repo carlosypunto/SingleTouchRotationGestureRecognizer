@@ -18,6 +18,11 @@ func rotated(sender: SingleTouchRotationGestureRecognizer) {
 }
 ```
 
+The rotation property indicates total rotation since the gesture began in radians. A positive value indicates clockwise rotation and a negative value indicates couterclockwise rotation.
+
+The velocity property indicates the angular velocity in radians/second.
+
+
 ViewController.swift has some sample code that uses the gesture recognizer to rotate a view in response to touch events.
 
 ## License
