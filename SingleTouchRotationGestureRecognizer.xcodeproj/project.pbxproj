@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3564731A1BAC0D9000874FCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356473191BAC0D9000874FCA /* AppDelegate.swift */; };
+		3564731C1BAC0D9000874FCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3564731B1BAC0D9000874FCA /* ViewController.swift */; };
+		3564731F1BAC0D9000874FCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3564731D1BAC0D9000874FCA /* Main.storyboard */; };
+		356473211BAC0D9000874FCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 356473201BAC0D9000874FCA /* Assets.xcassets */; };
+		356473241BAC0D9000874FCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356473221BAC0D9000874FCA /* LaunchScreen.storyboard */; };
+		3564732C1BAC0EB100874FCA /* SingleTouchRotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3564732B1BAC0EB100874FCA /* SingleTouchRotationGestureRecognizer.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		356473161BAC0D8F00874FCA /* SingleTouchRotationGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleTouchRotationGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		356473191BAC0D9000874FCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3564731B1BAC0D9000874FCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3564731E1BAC0D9000874FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		356473201BAC0D9000874FCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		356473231BAC0D9000874FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		356473251BAC0D9000874FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3564732B1BAC0EB100874FCA /* SingleTouchRotationGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleTouchRotationGestureRecognizer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		356473131BAC0D8F00874FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3564730D1BAC0D8F00874FCA = {
+			isa = PBXGroup;
+			children = (
+				356473181BAC0D8F00874FCA /* SingleTouchRotationGestureRecognizer */,
+				356473171BAC0D8F00874FCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		356473171BAC0D8F00874FCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				356473161BAC0D8F00874FCA /* SingleTouchRotationGestureRecognizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		356473181BAC0D8F00874FCA /* SingleTouchRotationGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				356473191BAC0D9000874FCA /* AppDelegate.swift */,
+				3564731B1BAC0D9000874FCA /* ViewController.swift */,
+				3564731D1BAC0D9000874FCA /* Main.storyboard */,
+				356473201BAC0D9000874FCA /* Assets.xcassets */,
+				356473221BAC0D9000874FCA /* LaunchScreen.storyboard */,
+				356473251BAC0D9000874FCA /* Info.plist */,
+				3564732B1BAC0EB100874FCA /* SingleTouchRotationGestureRecognizer.swift */,
+			);
+			path = SingleTouchRotationGestureRecognizer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		356473151BAC0D8F00874FCA /* SingleTouchRotationGestureRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 356473281BAC0D9000874FCA /* Build configuration list for PBXNativeTarget "SingleTouchRotationGestureRecognizer" */;
+			buildPhases = (
+				356473121BAC0D8F00874FCA /* Sources */,
+				356473131BAC0D8F00874FCA /* Frameworks */,
+				356473141BAC0D8F00874FCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingleTouchRotationGestureRecognizer;
+			productName = SingleTouchRotationGestureRecognizer;
+			productReference = 356473161BAC0D8F00874FCA /* SingleTouchRotationGestureRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3564730E1BAC0D8F00874FCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Chris Gulley";
+				TargetAttributes = {
+					356473151BAC0D8F00874FCA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 356473111BAC0D8F00874FCA /* Build configuration list for PBXProject "SingleTouchRotationGestureRecognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3564730D1BAC0D8F00874FCA;
+			productRefGroup = 356473171BAC0D8F00874FCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				356473151BAC0D8F00874FCA /* SingleTouchRotationGestureRecognizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		356473141BAC0D8F00874FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356473241BAC0D9000874FCA /* LaunchScreen.storyboard in Resources */,
+				356473211BAC0D9000874FCA /* Assets.xcassets in Resources */,
+				3564731F1BAC0D9000874FCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		356473121BAC0D8F00874FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3564731C1BAC0D9000874FCA /* ViewController.swift in Sources */,
+				3564731A1BAC0D9000874FCA /* AppDelegate.swift in Sources */,
+				3564732C1BAC0EB100874FCA /* SingleTouchRotationGestureRecognizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3564731D1BAC0D9000874FCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3564731E1BAC0D9000874FCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		356473221BAC0D9000874FCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				356473231BAC0D9000874FCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		356473261BAC0D9000874FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		356473271BAC0D9000874FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		356473291BAC0D9000874FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SingleTouchRotationGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisgulley.SingleTouchRotationGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3564732A1BAC0D9000874FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SingleTouchRotationGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisgulley.SingleTouchRotationGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		356473111BAC0D8F00874FCA /* Build configuration list for PBXProject "SingleTouchRotationGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356473261BAC0D9000874FCA /* Debug */,
+				356473271BAC0D9000874FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		356473281BAC0D9000874FCA /* Build configuration list for PBXNativeTarget "SingleTouchRotationGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356473291BAC0D9000874FCA /* Debug */,
+				3564732A1BAC0D9000874FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3564730E1BAC0D8F00874FCA /* Project object */;
+}
