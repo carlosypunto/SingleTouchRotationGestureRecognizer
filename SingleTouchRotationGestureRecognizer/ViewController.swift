@@ -17,19 +17,19 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        recognizer = SingleTouchRotationGestureRecognizer(target: self, action: "rotated:")
+        recognizer = SingleTouchRotationGestureRecognizer(target: self, action: #selector(rotated(sender:)))
         square.addGestureRecognizer(recognizer)
     }
     
-    func rotated(sender: SingleTouchRotationGestureRecognizer) {
-        if sender.state == .Began {
+    @objc func rotated(sender: SingleTouchRotationGestureRecognizer) {
+        if sender.state == .began {
             lastRotation = 0
         }
 
         rotation += sender.rotation - lastRotation
         lastRotation = sender.rotation
         
-        self.square.transform = CGAffineTransformMakeRotation(rotation)
+        self.square.transform = CGAffineTransform(rotationAngle: rotation)
     }
 }
 

@@ -32,11 +32,11 @@ extension CGVector {
         // The difference between the two values above won't necessarily be the
         // acute angle, so it could be between -2 * M_PI and 2 * M_PI. Adjust it here
         // so that we are returning the acute angle (shorter of the two possible rotations).
-        if angle > M_PI {
-            angle -= (M_PI * 2)
+        if angle > Double.pi {
+            angle -= (Double.pi * 2)
         }
-        else if angle < -M_PI {
-            angle += (M_PI * 2)
+        else if angle < -Double.pi {
+            angle += (Double.pi * 2)
         }
         return angle
     }
@@ -64,9 +64,9 @@ public class SingleTouchRotationGestureRecognizer: UIGestureRecognizer {
     
     private var lastVector = CGVector.zero
     private var angularVelocity = CGFloat(0)
-    private var lastTimestamp = NSTimeInterval(0)
+    private var lastTimestamp = TimeInterval(0)
     
-    override init(target: AnyObject?, action: Selector) {
+    override init(target: Any?, action: Selector?) {
         super.init(target: target, action: action)
     }
     
@@ -77,51 +77,51 @@ public class SingleTouchRotationGestureRecognizer: UIGestureRecognizer {
         lastTimestamp = 0
     }
     
-    private func screenVectorFromTouch(touch: UITouch) -> CGVector{
+    private func screenVectorFromTouch(_ touch: UITouch) -> CGVector{
         let screenSpace = view!.window!.screen.coordinateSpace
-        let location = view!.convertPoint(touch.locationInView(view!), toCoordinateSpace: screenSpace)
-        let center = view!.convertPoint(view!.bounds.center, toCoordinateSpace: screenSpace)
+        let location = view!.convert(touch.location(in: view!), to: screenSpace)
+        let center =  view!.convert(view!.bounds.center, to: screenSpace)
         
         return location - center
     }
     
-    override public func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent) {
-        super.touchesBegan(touches, withEvent: event)
-        guard let touch = touches.first where touches.count == 1 && view != nil else {
-            state = .Failed
+    override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent) {
+        super.touchesBegan(touches, with: event)
+        guard let touch = touches.first, touches.count == 1 && view != nil else {
+            state = .failed
             return
         }
         
         lastVector = screenVectorFromTouch(touch)
         lastTimestamp = touch.timestamp
-        state = .Began
+        state = .began
     }
     
-    override public func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent) {
-        super.touchesMoved(touches, withEvent: event)
-        guard let touch = touches.first where view != nil else {
-            state = .Failed
+    override public func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent) {
+        super.touchesMoved(touches, with: event)
+        guard let touch = touches.first, view != nil else {
+            state = .failed
             return
         }
         
         let currentVector = screenVectorFromTouch(touch)
-        let angularDelta = CGFloat(currentVector.angleFromVector(lastVector))
+        let angularDelta = CGFloat(currentVector.angleFromVector(vector: lastVector))
         rotation += angularDelta
         lastVector = currentVector
         
         angularVelocity = angularDelta / CGFloat(touch.timestamp - lastTimestamp)
         lastTimestamp = touch.timestamp
         
-        state = .Changed
+        state = .changed
     }
     
-    override public func touchesCancelled(touches: Set<UITouch>, withEvent event: UIEvent) {
-        super.touchesCancelled(touches, withEvent: event)
-        state = .Ended
+    override public func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent) {
+        super.touchesCancelled(touches, with: event)
+        state = .ended
     }
     
-    override public func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent) {
-        super.touchesEnded(touches, withEvent: event)
-        state = .Ended
+    override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent) {
+        super.touchesEnded(touches, with: event)
+        state = .ended
     }
 }

@@ -3,31 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3564731A1BAC0D9000874FCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356473191BAC0D9000874FCA /* AppDelegate.swift */; };
-		3564731C1BAC0D9000874FCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3564731B1BAC0D9000874FCA /* ViewController.swift */; };
-		3564731F1BAC0D9000874FCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3564731D1BAC0D9000874FCA /* Main.storyboard */; };
-		356473211BAC0D9000874FCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 356473201BAC0D9000874FCA /* Assets.xcassets */; };
-		356473241BAC0D9000874FCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356473221BAC0D9000874FCA /* LaunchScreen.storyboard */; };
-		3564732C1BAC0EB100874FCA /* SingleTouchRotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3564732B1BAC0EB100874FCA /* SingleTouchRotationGestureRecognizer.swift */; settings = {ASSET_TAGS = (); }; };
+		0745B57E1FC1B2AB007EB48B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0745B57D1FC1B2AB007EB48B /* AppDelegate.swift */; };
+		0745B5801FC1B2AB007EB48B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0745B57F1FC1B2AB007EB48B /* ViewController.swift */; };
+		0745B5831FC1B2AB007EB48B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0745B5811FC1B2AB007EB48B /* Main.storyboard */; };
+		0745B5851FC1B2AB007EB48B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0745B5841FC1B2AB007EB48B /* Assets.xcassets */; };
+		0745B5881FC1B2AB007EB48B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0745B5861FC1B2AB007EB48B /* LaunchScreen.storyboard */; };
+		0745B5901FC1B335007EB48B /* SingleTouchRotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0745B58F1FC1B334007EB48B /* SingleTouchRotationGestureRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		356473161BAC0D8F00874FCA /* SingleTouchRotationGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleTouchRotationGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		356473191BAC0D9000874FCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3564731B1BAC0D9000874FCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3564731E1BAC0D9000874FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		356473201BAC0D9000874FCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		356473231BAC0D9000874FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		356473251BAC0D9000874FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3564732B1BAC0EB100874FCA /* SingleTouchRotationGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleTouchRotationGestureRecognizer.swift; sourceTree = "<group>"; };
+		0745B57A1FC1B2AB007EB48B /* SingleTouchRotationGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleTouchRotationGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0745B57D1FC1B2AB007EB48B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0745B57F1FC1B2AB007EB48B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0745B5821FC1B2AB007EB48B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0745B5841FC1B2AB007EB48B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0745B5871FC1B2AB007EB48B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0745B5891FC1B2AB007EB48B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0745B58F1FC1B334007EB48B /* SingleTouchRotationGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleTouchRotationGestureRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		356473131BAC0D8F00874FCA /* Frameworks */ = {
+		0745B5771FC1B2AB007EB48B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,32 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3564730D1BAC0D8F00874FCA = {
+		0745B5711FC1B2AB007EB48B = {
 			isa = PBXGroup;
 			children = (
-				356473181BAC0D8F00874FCA /* SingleTouchRotationGestureRecognizer */,
-				356473171BAC0D8F00874FCA /* Products */,
+				0745B57C1FC1B2AB007EB48B /* SingleTouchRotationGestureRecognizer */,
+				0745B57B1FC1B2AB007EB48B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		356473171BAC0D8F00874FCA /* Products */ = {
+		0745B57B1FC1B2AB007EB48B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				356473161BAC0D8F00874FCA /* SingleTouchRotationGestureRecognizer.app */,
+				0745B57A1FC1B2AB007EB48B /* SingleTouchRotationGestureRecognizer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		356473181BAC0D8F00874FCA /* SingleTouchRotationGestureRecognizer */ = {
+		0745B57C1FC1B2AB007EB48B /* SingleTouchRotationGestureRecognizer */ = {
 			isa = PBXGroup;
 			children = (
-				356473191BAC0D9000874FCA /* AppDelegate.swift */,
-				3564731B1BAC0D9000874FCA /* ViewController.swift */,
-				3564731D1BAC0D9000874FCA /* Main.storyboard */,
-				356473201BAC0D9000874FCA /* Assets.xcassets */,
-				356473221BAC0D9000874FCA /* LaunchScreen.storyboard */,
-				356473251BAC0D9000874FCA /* Info.plist */,
-				3564732B1BAC0EB100874FCA /* SingleTouchRotationGestureRecognizer.swift */,
+				0745B57D1FC1B2AB007EB48B /* AppDelegate.swift */,
+				0745B57F1FC1B2AB007EB48B /* ViewController.swift */,
+				0745B58F1FC1B334007EB48B /* SingleTouchRotationGestureRecognizer.swift */,
+				0745B5811FC1B2AB007EB48B /* Main.storyboard */,
+				0745B5841FC1B2AB007EB48B /* Assets.xcassets */,
+				0745B5861FC1B2AB007EB48B /* LaunchScreen.storyboard */,
+				0745B5891FC1B2AB007EB48B /* Info.plist */,
 			);
 			path = SingleTouchRotationGestureRecognizer;
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		356473151BAC0D8F00874FCA /* SingleTouchRotationGestureRecognizer */ = {
+		0745B5791FC1B2AB007EB48B /* SingleTouchRotationGestureRecognizer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 356473281BAC0D9000874FCA /* Build configuration list for PBXNativeTarget "SingleTouchRotationGestureRecognizer" */;
+			buildConfigurationList = 0745B58C1FC1B2AB007EB48B /* Build configuration list for PBXNativeTarget "SingleTouchRotationGestureRecognizer" */;
 			buildPhases = (
-				356473121BAC0D8F00874FCA /* Sources */,
-				356473131BAC0D8F00874FCA /* Frameworks */,
-				356473141BAC0D8F00874FCA /* Resources */,
+				0745B5761FC1B2AB007EB48B /* Sources */,
+				0745B5771FC1B2AB007EB48B /* Frameworks */,
+				0745B5781FC1B2AB007EB48B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,80 +84,82 @@
 			);
 			name = SingleTouchRotationGestureRecognizer;
 			productName = SingleTouchRotationGestureRecognizer;
-			productReference = 356473161BAC0D8F00874FCA /* SingleTouchRotationGestureRecognizer.app */;
+			productReference = 0745B57A1FC1B2AB007EB48B /* SingleTouchRotationGestureRecognizer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3564730E1BAC0D8F00874FCA /* Project object */ = {
+		0745B5721FC1B2AB007EB48B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "Chris Gulley";
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Carlos García Nieto";
 				TargetAttributes = {
-					356473151BAC0D8F00874FCA = {
-						CreatedOnToolsVersion = 7.0;
+					0745B5791FC1B2AB007EB48B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 356473111BAC0D8F00874FCA /* Build configuration list for PBXProject "SingleTouchRotationGestureRecognizer" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 0745B5751FC1B2AB007EB48B /* Build configuration list for PBXProject "SingleTouchRotationGestureRecognizer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 3564730D1BAC0D8F00874FCA;
-			productRefGroup = 356473171BAC0D8F00874FCA /* Products */;
+			mainGroup = 0745B5711FC1B2AB007EB48B;
+			productRefGroup = 0745B57B1FC1B2AB007EB48B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				356473151BAC0D8F00874FCA /* SingleTouchRotationGestureRecognizer */,
+				0745B5791FC1B2AB007EB48B /* SingleTouchRotationGestureRecognizer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		356473141BAC0D8F00874FCA /* Resources */ = {
+		0745B5781FC1B2AB007EB48B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				356473241BAC0D9000874FCA /* LaunchScreen.storyboard in Resources */,
-				356473211BAC0D9000874FCA /* Assets.xcassets in Resources */,
-				3564731F1BAC0D9000874FCA /* Main.storyboard in Resources */,
+				0745B5881FC1B2AB007EB48B /* LaunchScreen.storyboard in Resources */,
+				0745B5851FC1B2AB007EB48B /* Assets.xcassets in Resources */,
+				0745B5831FC1B2AB007EB48B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		356473121BAC0D8F00874FCA /* Sources */ = {
+		0745B5761FC1B2AB007EB48B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3564731C1BAC0D9000874FCA /* ViewController.swift in Sources */,
-				3564731A1BAC0D9000874FCA /* AppDelegate.swift in Sources */,
-				3564732C1BAC0EB100874FCA /* SingleTouchRotationGestureRecognizer.swift in Sources */,
+				0745B5801FC1B2AB007EB48B /* ViewController.swift in Sources */,
+				0745B57E1FC1B2AB007EB48B /* AppDelegate.swift in Sources */,
+				0745B5901FC1B335007EB48B /* SingleTouchRotationGestureRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3564731D1BAC0D9000874FCA /* Main.storyboard */ = {
+		0745B5811FC1B2AB007EB48B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3564731E1BAC0D9000874FCA /* Base */,
+				0745B5821FC1B2AB007EB48B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		356473221BAC0D9000874FCA /* LaunchScreen.storyboard */ = {
+		0745B5861FC1B2AB007EB48B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				356473231BAC0D9000874FCA /* Base */,
+				0745B5871FC1B2AB007EB48B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -165,29 +167,41 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		356473261BAC0D9000874FCA /* Debug */ = {
+		0745B58A1FC1B2AB007EB48B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -201,37 +215,50 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		356473271BAC0D9000874FCA /* Release */ = {
+		0745B58B1FC1B2AB007EB48B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -239,56 +266,66 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		356473291BAC0D9000874FCA /* Debug */ = {
+		0745B58D1FC1B2AB007EB48B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SingleTouchRotationGestureRecognizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisgulley.SingleTouchRotationGestureRecognizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		3564732A1BAC0D9000874FCA /* Release */ = {
+		0745B58E1FC1B2AB007EB48B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SingleTouchRotationGestureRecognizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisgulley.SingleTouchRotationGestureRecognizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		356473111BAC0D8F00874FCA /* Build configuration list for PBXProject "SingleTouchRotationGestureRecognizer" */ = {
+		0745B5751FC1B2AB007EB48B /* Build configuration list for PBXProject "SingleTouchRotationGestureRecognizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				356473261BAC0D9000874FCA /* Debug */,
-				356473271BAC0D9000874FCA /* Release */,
+				0745B58A1FC1B2AB007EB48B /* Debug */,
+				0745B58B1FC1B2AB007EB48B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		356473281BAC0D9000874FCA /* Build configuration list for PBXNativeTarget "SingleTouchRotationGestureRecognizer" */ = {
+		0745B58C1FC1B2AB007EB48B /* Build configuration list for PBXNativeTarget "SingleTouchRotationGestureRecognizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				356473291BAC0D9000874FCA /* Debug */,
-				3564732A1BAC0D9000874FCA /* Release */,
+				0745B58D1FC1B2AB007EB48B /* Debug */,
+				0745B58E1FC1B2AB007EB48B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3564730E1BAC0D8F00874FCA /* Project object */;
+	rootObject = 0745B5721FC1B2AB007EB48B /* Project object */;
 }
